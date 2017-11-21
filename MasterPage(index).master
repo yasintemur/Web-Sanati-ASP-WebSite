@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage(index).master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta charset="utf-8">
+<title>Web Sanatı - Profesyonel Web Tasarımı - Kurumsal Web Site Tasarımı - Mobil Site Tasarımı</title>
+		<link rel="stylesheet" type="text/css" href="css/sifirlama.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script src="js/jquery-1.11.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#galeriresim img").hide();
+        $("#galeriresim img:first").show();
+        $("#galerisecim img").click(function () {
+            var index = $(this).index();
+            $("#galeriresim img").fadeIn().hide();
+            $("#galeriresim img").eq(index).show();
+        });
+    }); 
+</script>
+</head>
+<body>
+<div id="headerkapsa">
+	<div id="header">
+		<div id="headerkutu">
+			<a href="#"><img src="img/logo.png"/></a>
+				<p id="yazi"><a href="#">İnternetteki Çözüm Ortağınız</a></p>
+		</div>
+		<div id="menubarkutu">
+			<ul>
+				<li id="anasayfa"><a href="index.aspx">Anasayfa</a></li>
+				<li id="duzenleme_menubar"><img src="img/menu-spacer.gif"/></li>
+				<li><a href="#">Hizmetler</a></li>
+				<li id="duzenleme_menubar"><img src="img/menu-spacer.gif"/></li>
+				<li><a href="#">Paketler</a></li>
+				<li id="duzenleme_menubar"><img src="img/menu-spacer.gif"/></li>
+				<li><a href="#">Referanslar</a></li>
+				<li><img src="img/menu-spacer.gif"/></li>
+				<li><a href="iletisim.aspx">İletişim</a></li>
+			</ul>
+		</div>
+	</div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+</div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    </asp:ContentPlaceHolder>
+	<div id="kapsa_footer">
+		<div id="kapsa_footer1">
+			<div id="kutu2">
+				<p id="takip">Takipte Kalın!</p>
+			</div>
+			<div id="kutu2">
+				<p id="takip">Çalışma Prensibimiz</p>
+				<p id="metin">Web Sanatı, günümüzün en güncel web teknolojilerini kullanarak uygun fiyatlara görsel açıdan zengin, kaliteli çözümlerle sizleri memnuniyetle internet ortamına taşır.</p>
+			</div>
+			<div id="kutu2">
+				<p id="takip">İletişim</p>
+				<p id="metin">
+				(+90) 541 567 67 11<br><br>
+				(+90) 541 417 33 12<br><br>
+				info@websanati.com<br>
+				</p>
+			</div>
+			<center><p id="copyright">
+			Web Sanatı © 2013</p></center>
+		</div>
+	</div>
+</div>
+</body>
+</html>

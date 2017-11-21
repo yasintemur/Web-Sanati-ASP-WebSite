@@ -1,0 +1,36 @@
+﻿body {
+}
+#headerkapsa1{
+width:100%;
+height:116px;
+background-color:black;
+}
+#icerik1{
+width:980px;
+height:430px;
+margin:0 auto;
+clear:left;
+}
+#adreskutu{
+width:330px;
+height:430px;
+float:left;
+}
+#haritakutu{
+width:645px;
+height:430px;
+float:left;
+}
+#adres_baslik{
+margin-top:30px;
+margin-left:20px;
+font-size:18pt;
+}
+#adres_duzen{
+margin-left:20px;
+font-weight:bold;
+}
+#telefon_yazi{
+color:gray;
+margin-left:20px;
+}

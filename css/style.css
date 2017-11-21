@@ -1,0 +1,171 @@
+body{
+
+}
+#headerkapsa{
+width:100%;
+height:196px;
+background-color:black;
+}
+#header{
+width:980px;
+height:106px;
+margin:0 auto;
+}
+div#header div#headerkutu img{
+margin-top:30px;
+margin-left:35px;
+}
+div#header div#headerkutu p a{
+text-decoration:none;
+color:gray;
+}
+#headerkutu{
+width:400px;
+height:106px;
+float:left;
+}
+#menubarkutu{
+width:575px;
+height:106px;
+float:left;
+}
+div#menubarkutu ul li#anasayfa a{
+color:#71ba02;
+}
+#yazi{
+margin-left:170px;
+font-family:Clabri;
+position:relative;
+bottom:7px;
+}
+div#menubarkutu ul li{
+color:white;
+float:left;
+padding-left:20px;
+padding-top:40px;
+font-size:15pt;
+}
+div#menubarkutu ul li a{
+color:white;
+text-decoration:none;
+}
+div#menubarkutu ul li a:hover{
+color:#71ba02;
+text-decoration:none;
+}
+div#menubarkutu ul li#duzenleme_menubar img{
+position:relative;
+bottom:17px;
+}
+#galeri{
+width:980px;
+height:490px;
+margin:0 auto;
+background-image:url(../img/slider-bg.png);
+}
+#galerisecim{
+width:100px;
+height:431;
+float:left;
+margin-top:20px;
+margin-left:30px;
+margin-bottom:37px;
+}
+#galeriresim{
+width:830px;
+height:471px;
+margin-top:20px;
+float:left;
+}
+div#galeri div#galerisecim img{
+margin-bottom:1px;
+background-image:url(../img/butonbos.jpg);
+}
+div#galeri div#galerisecim img:hover{
+background-image:url(../img/pagination-a.png);
+}
+#icerik{
+width:980px;
+height:520px;
+margin:0 auto;
+clear:left;
+}
+#yazi_{
+font-size:25pt;
+}
+#kapsa_icerik{
+width:980px;
+height:350px;
+}
+#kutu1{
+float:left;
+width:324px;
+height:350px;
+}
+ul#manubaric{
+margin-left:15px;
+margin-top:25px;
+}
+ul#manubaric li{
+padding:10px;
+}
+ul#manubaric li a{
+text-decoration:none;
+color:gray;
+}
+ul#manubaric li a:hover{
+color:#71ba02;;
+}
+#hosgeldiniz{
+font-size:20pt;
+margin-top:35px;
+margin-left:15px;
+margin-bottom:10px;
+}
+ul#manubaric1{
+}
+ul#manubaric1 li{
+padding:25px;
+padding-top:35px;
+}
+ul#manubaric1 li a{
+text-decoration:none;
+color:black;
+font-size:14pt;
+font-family:Modern;
+}
+#duzenleme{
+margin-left:30px;
+}
+#kapsa_footer{
+width:100%;
+height:331px;
+background-color:black;
+clear:left;
+}
+#kapsa_footer1{
+width:980px;
+height:320px;
+margin:0 auto;
+}
+#kutu2{
+float:left;
+width:324px;
+height:280px;
+}
+#takip{
+color:white;
+padding:26px;
+font-size:18pt;
+}
+div#kapsa_footer div#kapsa_footer1 div#kutu2 img{
+margin-top:20px;
+margin-left:30px;
+}
+#metin{
+color:gray;
+margin-left:25px;
+}
+div#kapsa_footer div#kapsa_footer1 center p#copyright{
+color:gray;
+}
